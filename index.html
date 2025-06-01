@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business - Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">Source Creations LLC</div>
+            <div class="space-x-4">
+                <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#features" class="text-gray-600 hover:text-blue-600">Features</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with IMG_0980 Inline and IMG_0983 Background -->
+    <section id="home" class="text-white py-20 bg-cover bg-center" style="background-image: url('Pictures/IMG_0983.JPG');">
+        <div class="container mx-auto px-6 text-center bg-black bg-opacity-50 py-10">
+            <img src="Pictures/IMG_0980.JPG" alt="Hero Image" class="mx-auto mb-6 w-40 h-40 md:w-56 md:h-56 object-cover rounded-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">How can Source Help?</h1>
+            <p class="text-lg md:text-xl mb-6">Providing top-notch services to help you succeed.</p>
+            <a href="contact.html" class="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section with IMG_0984 Inline, No Background -->
+    <section id="features" class="py-16">
+        <div class="container mx-auto px-6">
+            <img src="Pictures/IMG_0984.JPG" alt="Features Decorative Image" class="mx-auto mb-8 w-40 h-40 md:w-56 md:h-56 object-contain">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Quality Service</h3>
+                    <p class="text-gray-600">We deliver exceptional service tailored to your needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Our skilled professionals ensure top results.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Out-of-the-Box Thinking</h3>
+                    <p class="text-gray-600">Ideas so crazy they just might work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with IMG_0986 -->
+    <footer id="contact" class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <img src="Pictures/IMG_0986.JPG" alt="Footer Decorative Image" class="mx-auto mb-4 w-32 h-32 md:w-40 md:h-40 object-contain">
+            <p class="mb-4">Contact us: sourcecreationshelp@gmail.com</p>
+            <p>© 2025 Source Creations LLC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
